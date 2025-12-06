@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Milestone Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Child Milestone Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="#milestones">Milestones</a></li>
+                <li><a href="#add">Add Milestone</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="milestones">
+            <h2>Milestone List</h2>
+            <ul id="milestone-list">
+                <!-- Milestones will be dynamically rendered here -->
+            </ul>
+        </section>
+        <section id="add">
+            <h2>Add New Milestone</h2>
+            <form id="milestone-form">
+                <label for="name">Milestone Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="date">Date Achieved:</label>
+                <input type="date" id="date" name="date" required>
+                <button type="submit">Add Milestone</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Child Milestone Tracker</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
